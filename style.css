@@ -42,8 +42,8 @@ div.logo{
     margin-bottom: 20px;
 }
 .logo img {
-    width: calc(1763px / 18); 
-    height: calc(1163px / 18);
+    width: calc(1763px / 19.35); 
+    height: calc(1163px / 19.35);
     }
 
 ul {
