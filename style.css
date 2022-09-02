@@ -1,0 +1,135 @@
+:root {
+    --largura-barra-lateral: 30%;
+    --largura-texto-principal:70%;
+    --cor-fundo: #0D1117;
+    --cor-texto-primario:#F0F6FC;
+    --cor-texto-secundario:#8B949E;
+    --amarelo-logo:#FEBF2C;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-secundario);
+    font-family: 'Arial'
+}
+
+h1 {
+    color: var(--cor-texto-primario);
+    margin-top: 10px;
+    font-family: 'Verdana';
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: var(--largura-barra-lateral) auto;
+    background-color: var(--cor-fundo);
+    padding: 0px;
+}
+
+div#home-page {
+    width: var(--largura-texto-principal);
+    text-align: left;
+    margin-left: 20px;
+}
+
+div.column-span {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+div.logo{
+    margin-left: calc(var(--largura-barra-lateral) + 25px);
+    margin-bottom: 20px;
+}
+.logo img {
+    width: calc(1763px / 18); 
+    height: calc(1163px / 18);
+    }
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    padding-bottom: 15px;
+}
+header {
+    margin: 60px 0px 0px 0px;
+}
+footer {
+    margin-left: calc(var(--largura-barra-lateral) + 30px);
+}
+
+a.link:link,
+a.link:visited {
+    color: var(--cor-texto-primario);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    font-family: 'Verdana';
+}
+
+a.link:hover {
+    padding-bottom: 5px;
+    color: var(--amarelo-logo);
+}
+a.menu-ativo{
+    color: var(--cor-texto-secundario);
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Verdana';
+    padding: 6px;
+    background:
+        linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 0,
+        linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
+        linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
+        linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 100%,
+        linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 0 0,
+        linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
+        linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
+        linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 0px 0px;
+    transition: 400ms;
+    transition-timing-function: ease-out;
+    
+}
+a.menu:link,
+a.menu:visited {
+    color: var(--cor-texto-primario);
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Verdana';
+    padding: 6px;
+    background:
+        linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 0,
+        linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
+        linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
+        linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 100%,
+        linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 0 0,
+        linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
+        linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
+        linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 0px 0px;
+    transition: 400ms;
+    transition-timing-function: ease-out;
+}
+
+a.menu:hover,
+a.menu-ativo:hover {
+    padding: 6px;
+    color: #f7dc66;
+    background:
+    linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 0,
+    linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
+    linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
+    linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 100%,
+    linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 0 0,
+    linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
+    linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
+    linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 7px 7px;
+}
