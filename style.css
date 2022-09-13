@@ -74,6 +74,16 @@ a.link:hover {
     padding-bottom: 5px;
     color: var(--amarelo-logo);
 }
+
+a.link-texto:link,a.link-texto:visited {
+    padding-bottom: 5px;
+    color: var(--cor-texto-primario);
+    text-decoration: none;
+}
+a.link-texto:hover {
+    text-decoration: none;
+    color: var(--amarelo-logo);
+}
 a.menu-ativo{
     color: var(--cor-texto-secundario);
     text-decoration: none;
