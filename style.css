@@ -154,6 +154,7 @@ a.menu-ativo:hover {
 @media only screen and (max-width: 780px) {
     
     h1 {
+        text-align: center;
         color: var(--cor-texto-primario);
         margin-top: 10px;
         font-family: 'Verdana';
@@ -167,14 +168,13 @@ a.menu-ativo:hover {
     
     
     div#home-page {
-        width: 100%;
+        width: 90%;
         text-align: left;
-        margin-left: 2
-        0px;
+        margin-left: 5%;
     }
     div.column-span {
         font-size: 13px;
-        text-align: left;
+        text-align: center;
         width:100%;
         margin-right: 20px;
         margin-top: 0px;
