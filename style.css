@@ -144,6 +144,7 @@ a.menu-ativo:hover {
     background-size: 7px 7px;
 }
 .languages{
-    display: block;
-    align-self: right;
+    position: absolute;
+    margin-left:65%;
+    margin-top:-130px;
 }
