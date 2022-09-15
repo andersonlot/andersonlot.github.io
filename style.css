@@ -26,11 +26,13 @@ div.container {
     padding: 0px;
 }
 
+
 div#home-page {
     width: var(--largura-texto-principal);
     text-align: left;
     margin-left: 20px;
 }
+
 
 div.column-span {
     text-align: right;
@@ -41,6 +43,7 @@ div.logo{
     margin-left: calc(var(--largura-barra-lateral) + 25px);
     margin-bottom: 20px;
 }
+
 .logo img {
     width: calc(1763px / 19.35); 
     height: calc(1163px / 19.35);
@@ -71,7 +74,6 @@ a.link:visited {
 }
 
 a.link:hover {
-    padding-bottom: 5px;
     color: var(--amarelo-logo);
 }
 
@@ -148,3 +150,148 @@ a.menu-ativo:hover {
     margin-left:65%;
     margin-top:-130px;
 }
+
+@media only screen and (max-width: 780px) {
+    
+    h1 {
+        color: var(--cor-texto-primario);
+        margin-top: 10px;
+        font-family: 'Verdana';
+    }
+    
+    div.container {
+        display:block;
+        background-color: var(--cor-fundo);
+    }
+    
+    
+    
+    div#home-page {
+        width: 100%;
+        text-align: left;
+        margin-left: 2
+        0px;
+    }
+    div.column-span {
+        text-align: left;
+        width:100%;
+        margin-right: 20px;
+        margin-top: 0px;
+    }
+    
+    div.logo{
+        margin-left:auto;
+        margin-right: auto;
+        align-content: center;
+        position:inherit;
+        float : none;
+    }
+    video.logo-animado{
+        height: 40px;
+        display: flex;
+        margin: auto auto auto auto;
+        }
+    
+    
+    ul {
+        list-style: none;
+    
+    }
+    
+    li {
+        padding-bottom: 15px;
+    }
+    header {
+        margin: 40px 0px 0px 0px;
+    }
+
+    
+    a.link:link,
+    a.link:visited {
+        color: var(--cor-texto-primario);
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 30px;
+        font-family: 'Verdana';
+    }
+    
+    a.link:hover {
+        color: var(--amarelo-logo);
+    }
+    
+    a.link-texto:link,a.link-texto:visited {
+        padding-bottom: 5px;
+        color: var(--cor-texto-primario);
+        text-decoration: none;
+    }
+    a.link-texto:hover {
+        text-decoration: none;
+        color: var(--amarelo-logo);
+    }
+    a.menu-ativo{
+        color: var(--cor-texto-secundario);
+        text-decoration: none;
+        font-weight: 500;
+        font-family: 'Verdana';
+        padding: 6px;
+        background:
+            linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 0,
+            linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
+            linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
+            linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 100%,
+            linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 0 0,
+            linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
+            linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
+            linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 100% 100%;
+        background-repeat: no-repeat;
+        background-size: 0px 0px;
+        transition: 400ms;
+        transition-timing-function: ease-out;
+        
+    }
+    a.menu:link,
+    a.menu:visited {
+        color: var(--cor-texto-primario);
+        text-decoration: none;
+        font-weight: 500;
+        font-family: 'Verdana';
+        padding: 6px;
+        background:
+            linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 0,
+            linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
+            linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
+            linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 100%,
+            linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 0 0,
+            linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
+            linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
+            linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 100% 100%;
+        background-repeat: no-repeat;
+        background-size: 0px 0px;
+        transition: 400ms;
+        transition-timing-function: ease-out;
+    }
+    
+    a.menu:hover,
+    a.menu-ativo:hover {
+        padding: 6px;
+        color: #f7dc66;
+        background:
+        linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 0,
+        linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
+        linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
+        linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 100%,
+        linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 0 0,
+        linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
+        linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
+        linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 100% 100%;
+        background-repeat: no-repeat;
+        background-size: 7px 7px;
+    }
+    .languages{
+        width:100%;
+        position: inherit;
+        display: flex;
+        margin: auto auto auto auto;
+    }
+
+  }
