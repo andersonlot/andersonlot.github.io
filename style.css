@@ -173,6 +173,7 @@ a.menu-ativo:hover {
         0px;
     }
     div.column-span {
+        font-size: 13px;
         text-align: left;
         width:100%;
         margin-right: 20px;
@@ -187,7 +188,7 @@ a.menu-ativo:hover {
         float : none;
     }
     video.logo-animado{
-        height: 40px;
+        height: 25px;
         display: flex;
         margin: auto auto auto auto;
         }
@@ -199,7 +200,7 @@ a.menu-ativo:hover {
     }
     
     li {
-        padding-bottom: 15px;
+        padding-bottom: 1px;
     }
     header {
         margin: 40px 0px 0px 0px;
@@ -234,15 +235,7 @@ a.menu-ativo:hover {
         font-weight: 500;
         font-family: 'Verdana';
         padding: 6px;
-        background:
-            linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 0,
-            linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
-            linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
-            linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 100%,
-            linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 0 0,
-            linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
-            linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
-            linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 100% 100%;
+        background: none;
         background-repeat: no-repeat;
         background-size: 0px 0px;
         transition: 400ms;
@@ -256,15 +249,7 @@ a.menu-ativo:hover {
         font-weight: 500;
         font-family: 'Verdana';
         padding: 6px;
-        background:
-            linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 0,
-            linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
-            linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
-            linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 100%,
-            linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 0 0,
-            linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
-            linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
-            linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 100% 100%;
+        background: none;
         background-repeat: no-repeat;
         background-size: 0px 0px;
         transition: 400ms;
@@ -275,23 +260,16 @@ a.menu-ativo:hover {
     a.menu-ativo:hover {
         padding: 6px;
         color: #f7dc66;
-        background:
-        linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 0,
-        linear-gradient(to right, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
-        linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
-        linear-gradient(to left, var(--amarelo-logo) 1px, transparent 1px) 100% 100%,
-        linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 0 0,
-        linear-gradient(to bottom, var(--amarelo-logo) 1px, transparent 1px) 100% 0,
-        linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 0 100%,
-        linear-gradient(to top, var(--amarelo-logo) 1px, transparent 1px) 100% 100%;
+        background: none;
         background-repeat: no-repeat;
         background-size: 7px 7px;
     }
     .languages{
+        font-size: 10px;
+        text-align: center;
         width:100%;
-        position: inherit;
-        display: flex;
-        margin: auto auto auto auto;
+        position: relative;
+        margin: 10px auto 10px auto;  
     }
 
   }
