@@ -176,7 +176,7 @@ a.menu-ativo:hover {
         font-size: 13px;
         text-align: center;
         width:100%;
-        margin-right: 20px;
+        margin-right: 0px;
         margin-top: 0px;
     }
     
@@ -195,12 +195,17 @@ a.menu-ativo:hover {
     
     
     ul {
+        margin-left:-33px;
         list-style: none;
     
     }
     
     li {
         padding-bottom: 1px;
+    }
+
+    li.links{
+        display:none;
     }
     header {
         margin: 40px 0px 0px 0px;
@@ -270,6 +275,12 @@ a.menu-ativo:hover {
         width:100%;
         position: relative;
         margin: 10px auto 10px auto;  
+    }
+    footer {
+        margin:10% 10% 10% 10%;
+        font-size:12px;
+        margin-left: 0px;
+        text-align: center;
     }
 
   }
