@@ -69,7 +69,8 @@ a.link:visited {
     color: var(--cor-texto-primario);
     text-decoration: none;
     font-weight: 500;
-    margin-left: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
     font-family: 'Verdana';
 }
 
@@ -78,9 +79,9 @@ a.link:hover {
 }
 
 a.link-texto:link,a.link-texto:visited {
-    padding-bottom: 5px;
     color: var(--cor-texto-primario);
     text-decoration: none;
+    
 }
 a.link-texto:hover {
     text-decoration: none;
@@ -195,7 +196,7 @@ a.menu-ativo:hover {
     
     
     ul {
-        margin-left:-33px;
+        margin: 10px 0px 10px -40px;
         list-style: none;
     
     }
@@ -217,7 +218,8 @@ a.menu-ativo:hover {
         color: var(--cor-texto-primario);
         text-decoration: none;
         font-weight: 500;
-        margin-left: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
         font-family: 'Verdana';
     }
     
@@ -226,7 +228,6 @@ a.menu-ativo:hover {
     }
     
     a.link-texto:link,a.link-texto:visited {
-        padding-bottom: 5px;
         color: var(--cor-texto-primario);
         text-decoration: none;
     }
