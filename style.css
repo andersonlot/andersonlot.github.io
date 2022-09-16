@@ -70,6 +70,14 @@ li.links{
     color:#8B949E;
 }
 
+li.texto{
+    color:var(--cor-texto-secundario);
+}
+
+h3{
+  color:var(--cor-texto-primario);  
+}
+
 a.link:link,
 a.link:visited {
     color: var(--cor-texto-primario);
