@@ -1,6 +1,6 @@
 # Anderson Lot
 
-:uk: Click [HERE](https://andersonlot.github.io) to acess my portfolio site.
+:uk: Click [HERE](https://andersonlot.github.io/en) to acess my portfolio site.
 
 :brazil: *Clique [AQUI](https://andersonlot.github.io) para acessar meu site-portfolio.*
 
