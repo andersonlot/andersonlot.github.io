@@ -60,22 +60,26 @@
       <script src="https://andersonlot.github.io/Game-of-Life/assets/sketch.js"></script>
       <div id="home-page">
         <h1>Game of Life</h1>
-        <p>In this project, I am working on the Conways Game of Life implementation.</p>
-        <p>This scrips consists in represent a cells group that have rules for surviving or not in their universe each genaration.</p>
-        <p>The most comum rules were created by John Conway, the creator of this game. The rules are: each live cell needs to have 2 or 3 lives neighbors to survive the next generation. If a live cell has less than 2 live neighbors, they die by lonelyness. If it has more than 3, it dies by starvation. A death cell can by ressucited by having 3 lives neigbors in the last genaration.</p>
+        <p>In this project, I am working on the implementation of Conways Game of Life.</p>
+        <p>This scrips consists in representing a group of cells that have rules to survive or not in their universe in each genaration.</p>
+        <p>The most common rules were created by John Conway, the creator of this game. The rules are:</p>
+        <ol>
+          <li class="texto">A live cell survive if it has 2 or 3 live neighbours.</li>
+          <li class="texto">A dead cell revive if it has 3 live neighbours.</li>
+          <li class="texto">Otherwise the cell dies.</li>
+        </ol>
         <p>The code you can check in my <a class="link-texto"
-            href="https://github.com/andersonlot/Game-of-Life">repo on GitHub</a>.</p>
-        <p>You can check bellow the result of this project so far:</p>
+            href="https://github.com/andersonlot/Game-of-Life">Repository on GitHub</a>. The result, so far, you can check bellow:</p>
         <div id="botoes" ></div>
         <div id="canvas" style="margin:10px" ></div>
         <h3>How to Play?</h3>
         <ol>
-          <li class="texto">CLick on a cell to give it life. After create your pattern you can press <strong>Play</strong> button.</li>
-          <li class="texto">The <strong>Pause</strong> button will pause the actual generation allowing you to change live or death celss to run again click on <strong>Play</strong>.</li>
-          <li class="texto">The <strong>Clean All</strong> button clean all screen and reset the Genaration Counter.</li>
-          <li class="texto">The <strong>+ Gen/s</strong> and <strong>- Gen/s</strong> control the generation per second rate.</li>
-          <li class="texto">The <strong>Random</strong> button generate a randomic pattern of live cells</li>
-          <li class="texto">Try use the following patterns and check what happend:<br><br>
+          <li class="texto">Click on a cell to bring it to life. After creating your pattern you can press the <strong>Play</strong> button.</li>
+          <li class="texto">The <strong>Pause</strong> button will pause the actual generation, allowing you to change live or dead cells and run again clicking on <strong>Play</strong>.</li>
+          <li class="texto">The <strong>Clean All</strong> button clears the entire screen and resets the Genaration Counter.</li>
+          <li class="texto">The <strong>+ Gen/s</strong> and <strong>- Gen/s</strong> control the generation rate per second.</li>
+          <li class="texto">The <strong>Random</strong> button generates a random pattern of live cells</li>
+          <li class="texto">Try using the following patterns and check what happend:<br><br>
             <image src="https://andersonlot.github.io/Game-of-Life/assets/padroes_testar.png" height="70px" style="margin-left: 10px;"></image>
           </li>
         </ol>
