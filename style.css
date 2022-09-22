@@ -7,6 +7,12 @@
     --amarelo-logo:#FEBF2C;
 }
 
+
+::selection {
+    color:#FFFFFF;
+    background-color: #f8ae00;
+}
+
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto-secundario);
@@ -59,6 +65,7 @@ li {
     color:var(--cor-texto-primario);
 }
 header {
+    background-color: var(--cor-fundo);
     margin: 60px 0px 0px 0px;
 }
 footer {
