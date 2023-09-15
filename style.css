@@ -50,6 +50,15 @@ div.logo{
     margin-bottom: 20px;
 }
 
+div.grid_projects{
+    display:grid;
+}
+
+div.item_grid_projects{
+    width: 100px;
+    height: 100px;
+}
+
 .logo img {
     width: calc(1763px / 19.35); 
     height: calc(1163px / 19.35);
