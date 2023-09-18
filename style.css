@@ -52,6 +52,7 @@ div.logo{
 
 div.grid_projects{
     display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 div.item_grid_projects{
