@@ -39,6 +39,25 @@ div#home-page {
     margin-left: 20px;
 }
 
+.card {
+    /* Add shadows to create the "card" effect */
+    background-color: #202030;
+    margin:15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    background-color: #303040;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container2 {
+    padding: 2px 16px;
+  }
 
 div.column-span {
     text-align: right;
@@ -52,12 +71,7 @@ div.logo{
 
 div.grid_projects{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-div.item_grid_projects{
-    width: 100px;
-    height: 100px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .logo img {
