@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title tabindex="1">Anderson Lot</title>
+  <title tabindex="1">Projetos</title>
 </head>
 <body>
   <header id="lockup">
@@ -18,7 +18,7 @@
     </div>
     <!-- menu linguas -->
     <div class="languages">
-      <a class="link" href="en/">🇬🇧 English</a><a class="link" href="/#">🇧🇷 Português</a>
+      <a class="link" href="en/projects">🇬🇧 English</a><a class="link" href="/#">🇧🇷 Português</a>
     </div>
   </header>
   <!-- close logo -->
@@ -27,7 +27,7 @@
     <div class="column-span">
       <nav>
         <ul>
-          <li><a class="menu-ativo" >Inicio</a></li>
+          <li><a class="menu" href="index.html" >Inicio</a></li>
           <li><a></a></li>
           <li><a class="titulo-menu"><strong>Projetos:</strong></a></li>
           <li><a class="menu" href="../Simulador-SEP-Torque/">Gear SEP</a></li>
@@ -35,6 +35,7 @@
           <li><a class="menu" href="../planetario">Planetário</a></li>
           <li><a class="menu" href="../Tetris-Old-Style/">Tetris</a></li>
           <li><a class="menu" href="../snake-game/">Snake Game</a></li>
+          <li><a class="menu-ativo" >Todos</a></li>
         </ul>
       </nav>
       <nav>
@@ -47,15 +48,50 @@
     </div>
     <main>
       <div id="home-page">
-        <h1>Anderson Lot</h1>
-        <p>Sou um Engenheiro Eletricista que descobriu recentemente que adora programar.</p>
-        <p>Meu primeiro contato com a programação foi através da clássica linguagem C. Depois de um tempo conheci o Arduino e acabei desenvolvendo interesse por eletrônica e microcontroladores.</p>
-        <p>Comecei alguns projetos através do Processig, que utiliza um framework muito similar ao do Arduíno, baseado em JavaScript. Nessa época eu desenvolvi um software para cálculo de grandezas de redes de distribuição, porém não compartilhei o projeto, já que nesse momento ainda não conhecia o Github e outras comunidades. Em breve pretendo apresentar e aperfeiçoar esse software aqui também junto dos demais projetos.</p>
-        <p>Mais recentemente conheci o framework P5.js, que facilitou demais a contrução de pequenos projetos para me manter conectado com esse universo no pouco tempo livre que eu tinha nos últimos anos. E agora conheci o GitHub e estou apaixonado pela plataforma e ansioso pra desenvolver projetos em comunidade.</p>
-        <p>Aqui nesse portifólio, que também é um projeto em desenvolvimento, você vai encontrar alguns dos trabalhos que executei ou ainda estão em execução. Você pode acompanhar todos os repositórios desses projetos no <a class="link-texto"
-          href="https://github.com/andersonlot" target="_blank">meu perfil do GitHub</a>. Se quiser pode contribuir ou dar sugestões por lá.</p>
-          <p>No futuro pretendo unificar meu projeto de <a class="link-texto"
-            href="https://andersonlot.wordpress.com" target="_blank">Blog Wordpress</a> aqui nesse mesmo endereço. Por ora você pode conferir o conteúdo no wordpress mesmo!</p>
+        <h2>Meus Projetos</h2>
+        <div class="grid_projects">  
+
+          <a class="item_grid_projects" href="../Game-of-Life/">
+            <div class="card">
+              <img src="assets/projects/game_of_life.gif" alt="Jogo da Vida" style="width:100%">
+              <div class="card_container">
+                <h4><b>Jogo da Vida</b></h4>
+                <p>Esse é o Jogo da Vida que foi contruído com a utilização de Java Script com auxílio do framework P5.js...</p>
+              </div>
+            </div>
+          </a>
+
+          <a class="item_grid_projects" href="../planetario/">
+            <div class="card">
+              <img src="assets/projects/planetario.gif" alt="Jogo da Vida" style="width:100%">
+              <div class="card_container">
+                <h4><b>Planetário</b></h4>
+                <p>Esse programa, que simula um sistema de planetas, foi construído com auxílio do framework P5.js...</p>
+              </div>
+            </div>
+          </a>
+
+          <a class="item_grid_projects" href="../Tetris-Old-Style/">
+            <div class="card">
+              <img src="assets/projects/tetris.gif" alt="Jogo da Vida" style="width:100%">
+              <div class="card_container">
+                <h4><b>Tetris</b></h4>
+                <p>Esse é o Jogo da Vida que foi contruído com a utilização de Java Script com auxílio do framework P5.js...</p>
+              </div>
+            </div>
+          </a>
+          
+          <a class="item_grid_projects" href="../Game-of-Life/">
+            <div class="card">
+              <img src="assets/projects/teste.gif" alt="Jogo da Vida" style="width:100%">
+              <div class="card_container">
+                <h4><b>Jogo da Vida</b></h4>
+                <p>Esse é o Jogo da Vida que foi contruído com a utilização de Java Script com auxílio do framework P5.js...</p>
+              </div>
+            </div>
+          </a>
+
+        </div>
       </div>
     </main>
   </div>
@@ -72,9 +108,7 @@
         LinkedIn
       </a></p>
   </footer>
-
-
-
+  
   <script>
   
   </script>
@@ -82,3 +116,4 @@
 </body>
 
 </html>
+
